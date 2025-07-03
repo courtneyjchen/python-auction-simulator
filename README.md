@@ -8,4 +8,4 @@ During each round, a user is randomly selected. Each bidder is given the user’
 
 I implemented an epsilon-greedy strategy with exponential decay to balance exploration (learning click behavior) and exploitation (maximizing profit by bidding on high-value users). Bidders aim to accumulate as much profit as possible, earning $1 for each click but losing the winning price regardless of click outcome. Bidders are disqualified if their balance drops below -$1000.
 
-The simulator was designed for a competitive testing environment where multiple bidding algorithms compete under the same rules. My strategy outperformed most other submissions using a simple yet effective exploration-exploitation framework grounded in reinforcement learning.
+The simulator was designed for a competitive testing environment where multiple bidding algorithms compete under the same rules. My strategy outperformed other submissions using a simple yet effective exploration-exploitation framework grounded in reinforcement learning.
