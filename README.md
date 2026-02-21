@@ -1,5 +1,4 @@
 # Second-Price Auction Simulator with Strategic Bidding
-*Dislaimer: The data used in the following project is for non-commercial educational and personal use.*
 
 ## Project Overview
 In this project, I developed an object-oriented ad auction simulator in Python to model a competitive environment in which advertisers (bidders) vie to place ads for users. The simulation is framed as a second-price sealed-bid auction game, where each round represents a user visit to a website with an available ad slot.
